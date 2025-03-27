@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
 
 }
+body{
+    background-color: black;
+}
 .main{
     background-image: url('./Assets/bg.jpg');
     background-position: center center;
@@ -60,7 +63,7 @@ nav .btn button:nth-child(2){
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    gap: 35px;
+    gap: 25px;
     height: calc(100vh - 100px);
     position: relative;
     z-index: 2;
@@ -81,8 +84,14 @@ nav .btn button:nth-child(2){
     color: white; /* Change to white for better contrast */
     text-align: center; /* Center the text horizontally */
     /* line-height: 10px; */
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 500;
+}
+.hero h4:first-of-type {
+    /* line-height: 10px; */
+    font-size: 26px;
+    font-weight: bold;
+    /* background-color: brown; */
 }
 .email{
     display: flex;
@@ -113,4 +122,64 @@ nav .btn button:nth-child(2){
     font-size: 20px;
     font-weight: 500;
     /* opacity: 0.4; */
+}
+.line{
+    height: 6px;
+    background-color: rgba(82, 78, 78, 0.491);
+    position: relative;
+    z-index: 3;
+}
+.first{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    gap: 10px;
+    margin-top: 20px;
+    height: 75vh;
+}
+.first-box-img {
+    /* width: 30vw; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    
+}
+.first-box-img img{
+    width: 39vw;
+    position: relative;
+    z-index: 3;
+}
+.first-box-img video{
+    /* width: 30vw; */
+    position: absolute;
+    top: 63px;
+    right: 0;
+    width: 34vw;
+}
+.first-box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.first-box h3{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    color: white; /* Change to white for better contrast */
+    /* line-height: 70vh; */
+    /* margin-top: 40vh; */
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+.first-box p{
+    position: relative;
+    color: white; /* Change to white for better contrast */
+    /* line-height: 10px; */
+    font-size: 23px;
+    font-weight: 500;
 }
