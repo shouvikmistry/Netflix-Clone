@@ -135,11 +135,12 @@ nav .btn button:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70vw;
+    max-width: 69vw;
     margin: auto;
     gap: 10px;
-    margin-top: 20px;
-    height: 75vh;
+    /* margin-top: 20px; */
+    padding: 40px 0;
+    height: 70vh;
 }
 .first-box-img {
     /* width: 30vw; */
