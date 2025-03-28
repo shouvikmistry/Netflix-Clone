@@ -260,3 +260,38 @@ nav .btn button:nth-child(2) {
     background-color: #5c5858;
     transition: all 0.6s ease-in-out;
 }
+
+footer {
+    color: white;
+    max-width: 69vw;
+    margin: auto;
+    /* gap: 10px; */
+}
+
+footer h3 {
+    margin: 0 20px;
+    margin-top: 100px;
+}
+
+.footerbox {
+    display: flex;
+    height: 50vh;
+    /* background-color: blueviolet; */
+}
+
+.items {
+    /* background-color: burlywood; */
+    padding: 6px 20px;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.items a {
+    max-width: 200px;
+    /* background-color: antiquewhite; */
+    color: aliceblue;
+}
